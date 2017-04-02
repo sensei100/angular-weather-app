@@ -6,12 +6,12 @@ weatherApp.config(function ($routeProvider) {
   $routeProvider
 
   .when('/', {
-    templateUrl: 'pages/home.html',
+    templateUrl: 'pages/home.htm',
     controller: 'homeController'
   })
 
    .when('/forecast', {
-    templateUrl: 'pages/forecast.html',
+    templateUrl: 'pages/forecast.htm',
     controller: 'forecast Controller'
   })
 });
